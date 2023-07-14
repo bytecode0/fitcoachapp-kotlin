@@ -1,6 +1,6 @@
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
-import com.kashif.common.Application
+import com.fitcoachapp.app.Application
 
 
 fun main() = application {

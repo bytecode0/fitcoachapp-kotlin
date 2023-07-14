@@ -1,7 +1,7 @@
 package com.kashif.android
 
 import android.app.Application
-import com.kashif.common.di.initKoin
+import com.fitcoachapp.app.di.initKoin
 
 class App : Application() {
 

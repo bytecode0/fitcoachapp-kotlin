@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fitcoachapp-workout-desktop-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/fitcoachapp-workout/build/libs</output-path>
+    <root id="archive" name="fitcoachapp-workout-desktop-1.0-SNAPSHOT.jar">
+      <element id="module-output" name="fitcoachapp-kotlin.fitcoachapp-workout.desktopMain" />
+    </root>
+  </artifact>
+</component>

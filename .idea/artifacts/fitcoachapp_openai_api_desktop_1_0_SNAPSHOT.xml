@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fitcoachapp-openai-api-desktop-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/fitcoachapp-openai-api/build/libs</output-path>
+    <root id="archive" name="fitcoachapp-openai-api-desktop-1.0-SNAPSHOT.jar">
+      <element id="module-output" name="fitcoachapp-kotlin.fitcoachapp-openai-api.desktopMain" />
+    </root>
+  </artifact>
+</component>

@@ -1,7 +1,19 @@
 enableFeaturePreview("VERSION_CATALOGS")
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
-//TODO: change project root you may also want to refactor the name of the directory
-rootProject.name = "KMPTemplate"
+rootProject.name = "fitcoachapp-kotlin"
 
-include(":android", ":desktop", ":common")
+include(
+    ":android",
+    ":desktop",
+    ":fitcoachapp-app",
+    ":fitcoachapp-feature-auth",
+    ":fitcoachapp-feature-onboarding",
+    ":fitcoachapp-feature-dashboard",
+    ":fitcoachapp-feature-exercises",
+    ":fitcoachapp-feature-workout",
+    ":fitcoachapp-feature-profile",
+    ":fitcoachapp-payment",
+    ":fitcoachapp-firebase",
+    ":fitcoachapp-openai-api"
+)

@@ -5,7 +5,7 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":common"))
+    implementation(project(":fitcoachapp-app"))
     implementation(libs.androidx.activity.compose)
     implementation(libs.koin.compose)
 }

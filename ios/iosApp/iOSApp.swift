@@ -1,6 +1,5 @@
 import SwiftUI
-import common
-
+import fitcoachapp_app
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
