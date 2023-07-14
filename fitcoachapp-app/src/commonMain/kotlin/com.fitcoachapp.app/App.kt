@@ -1,0 +1,11 @@
+package com.fitcoachapp.app
+
+import androidx.compose.runtime.Composable
+import com.fitcoachapp.feature.auth.view.Welcome
+
+@Composable
+internal fun App(platform: String) {
+
+    Welcome()
+
+}
