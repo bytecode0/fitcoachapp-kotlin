@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fitcoachapp-feature-auth-domain-desktop-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/fitcoachapp-feature-auth-domain/build/libs</output-path>
+    <root id="archive" name="fitcoachapp-feature-auth-domain-desktop-1.0-SNAPSHOT.jar">
+      <element id="module-output" name="fitcoachapp-kotlin.fitcoachapp-feature-auth-domain.desktopMain" />
+    </root>
+  </artifact>
+</component>

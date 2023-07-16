@@ -12,12 +12,6 @@ fun composeDependency(groupWithArtifact: String) = "$groupWithArtifact:${libs.ve
 
 kotlin {
     android()
-    jvm("desktop") {
-        compilations.all {
-            kotlinOptions.jvmTarget = "11"
-        }
-    }
-
     ios()
     iosSimulatorArm64()
 
@@ -33,12 +27,10 @@ kotlin {
         }
     }
 
-
-
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation(project(":fitcoachapp-feature-auth"))
+                implementation(project(":fitcoachapp-feature-auth-ui"))
                 api(compose.runtime)
                 api(compose.foundation)
                 api(compose.material)
@@ -50,8 +42,6 @@ kotlin {
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test"))
-
-
             }
         }
         val androidMain by getting {
@@ -66,16 +56,6 @@ kotlin {
                 implementation(libs.junit)
             }
         }
-        val desktopMain by getting {
-            dependencies {
-                api(compose.preview)
-                implementation(libs.koin.core)
-                implementation(libs.koin.compose)
-
-            }
-        }
-        val desktopTest by getting
-
         val iosMain by getting {
             dependsOn(commonMain)
             dependencies {

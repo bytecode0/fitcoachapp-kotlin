@@ -12,15 +12,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/android" />
-            <option value="$PROJECT_DIR$/desktop" />
             <option value="$PROJECT_DIR$/fitcoachapp-app" />
-            <option value="$PROJECT_DIR$/fitcoachapp-feature-auth" />
+            <option value="$PROJECT_DIR$/fitcoachapp-feature-auth-domain" />
+            <option value="$PROJECT_DIR$/fitcoachapp-feature-auth-firebase" />
+            <option value="$PROJECT_DIR$/fitcoachapp-feature-auth-ui" />
             <option value="$PROJECT_DIR$/fitcoachapp-feature-dashboard" />
             <option value="$PROJECT_DIR$/fitcoachapp-feature-exercises" />
             <option value="$PROJECT_DIR$/fitcoachapp-feature-onboarding" />
             <option value="$PROJECT_DIR$/fitcoachapp-feature-profile" />
             <option value="$PROJECT_DIR$/fitcoachapp-feature-workout" />
-            <option value="$PROJECT_DIR$/fitcoachapp-firebase" />
             <option value="$PROJECT_DIR$/fitcoachapp-openai-api" />
             <option value="$PROJECT_DIR$/fitcoachapp-payment" />
           </set>
