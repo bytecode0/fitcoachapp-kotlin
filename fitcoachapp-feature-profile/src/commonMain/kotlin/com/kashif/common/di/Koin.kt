@@ -18,7 +18,6 @@ fun initKoin(
     baseUrl: String,
     appDeclaration: KoinAppDeclaration = {},
 ) = startKoin {
-    appDeclaration()
     modules(commonModule(enableNetworkLogs = enableNetworkLogs, baseUrl))
 }
 

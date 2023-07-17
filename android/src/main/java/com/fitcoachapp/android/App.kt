@@ -1,4 +1,4 @@
-package com.kashif.android
+package com.fitcoachapp.android
 
 import android.app.Application
 import com.fitcoachapp.app.di.initKoin

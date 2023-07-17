@@ -1,11 +1,11 @@
-package com.fitcoachapp.feature.auth.domain
+package com.fitcoachapp.feature.auth.ui
 
 import kotlinx.coroutines.CoroutineDispatcher
 
 /**
  * A Dispatcher abstraction in order to ease testing coroutines
  */
-interface DispatcherProvider {
+internal interface DispatcherProvider {
     val main: CoroutineDispatcher
     val io: CoroutineDispatcher
     val unconfined: CoroutineDispatcher

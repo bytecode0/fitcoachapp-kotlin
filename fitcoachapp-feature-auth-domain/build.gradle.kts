@@ -5,7 +5,7 @@ plugins {
     kotlin("native.cocoapods")
 }
 
-group = "domain"
+group = "com.fitcoachapp.feature.auth.domain"
 version = "1.0-SNAPSHOT"
 
 fun composeDependency(groupWithArtifact: String) = "$groupWithArtifact:${libs.versions.compose}"

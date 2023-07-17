@@ -1,4 +1,4 @@
-package com.fitcoachapp.feature.auth.domain
+package com.fitcoachapp.feature.auth.ui
 
 import kotlinx.coroutines.Dispatchers
 

@@ -1,4 +1,4 @@
-package com.kashif.android
+package com.fitcoachapp.android
 
 import android.os.Bundle
 import androidx.activity.compose.setContent

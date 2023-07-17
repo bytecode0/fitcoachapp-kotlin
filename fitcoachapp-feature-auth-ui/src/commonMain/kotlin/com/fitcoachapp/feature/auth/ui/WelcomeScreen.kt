@@ -38,11 +38,10 @@ import com.seiko.imageloader.rememberAsyncImagePainter
 fun Welcome() {
     val viewModel = UserViewModel()
 
-    val user = viewModel.userStateFlow.collectAsState()
+    val user = viewModel.userStateFlow.collectAsState().value
 
     Box(
-        modifier = Modifier
-            .fillMaxSize(),
+        modifier = Modifier.fillMaxSize()
     ) {
 
         AsyncImage(
@@ -71,7 +70,7 @@ fun Welcome() {
                 .fillMaxHeight(),
         ) {
             Text(
-                text = "Welcome, ${user.value?.name}!",
+                text = "Welcome, ${user.name}!",
                 style = TextStyle(
                     color = Color.White,
                     fontSize = MaterialTheme.typography.h4.fontSize,
@@ -120,6 +119,7 @@ fun Welcome() {
                     .run {
                         clickable {
                             // TODO: Navigate to sign in screen
+                            viewModel.getUser("1234")
                         }
                     },
                 contentAlignment = Alignment.Center,
